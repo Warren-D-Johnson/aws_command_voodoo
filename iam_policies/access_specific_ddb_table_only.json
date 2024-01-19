@@ -1,0 +1,38 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "ListAndDescribe",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:List*",
+                "dynamodb:DescribeReservedCapacity*",
+                "dynamodb:DescribeLimits",
+                "dynamodb:DescribeTimeToLive"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "SpecificTable",
+            "Effect": "Allow",
+            "Action": [
+                "kinesis:*",
+                "dynamodb:BatchGet*",
+                "dynamodb:DescribeTable",
+                "dynamodb:Get*",
+                "dynamodb:Query",
+                "dynamodb:Scan",
+                "dynamodb:BatchWrite*",
+                "dynamodb:CreateTable",
+                "dynamodb:Delete*",
+                "dynamodb:Update*",
+                "dynamodb:DescribeStream",
+                "dynamodb:ListStreams",
+                "dynamodb:PutItem"
+            ],
+            "Resource": [
+                "arn:aws:dynamodb:us-east-1:123456789100:table/some_ddb_table_here/*"
+            ]
+        }
+    ]
+}
