@@ -8,6 +8,6 @@ One of the best pieces of advice I received at the start of my career was to cre
 * image manipulation
 * video manipulation
 
-*Bonus, I included some IAM policies in a separate folder!*<br.
+*Bonus, I included some IAM policies in a separate folder!*<br>
 <br>
 I have a separate repository for Linux CLI related entries from my Command Voodoo file.  
