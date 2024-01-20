@@ -1,4 +1,7 @@
+
+
 {
+    "Comment": "This policy gives full read/write access to a single bucket.  Note that that includes creation and deletion of that bucket",
     "Version": "2012-10-17",
     "Statement": [
         {

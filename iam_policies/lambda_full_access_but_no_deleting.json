@@ -1,4 +1,5 @@
 {
+    "Comment": "Gives access to invoke or update function configuration or code to any lambda, anywhere you're allowed.",
     "Version": "2012-10-17",
     "Statement": [
         {

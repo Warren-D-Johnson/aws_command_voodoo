@@ -1,4 +1,5 @@
 {
+    "Comment": "Invalidate one, some or all files in any Cloudfront distribution",
     "Version": "2012-10-17",
     "Statement": [
         {

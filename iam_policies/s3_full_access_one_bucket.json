@@ -1,4 +1,5 @@
 {
+    "Comment": "List all buckets and full access to one specific bucket including deleting it, recreating etc",
     "Version": "2012-10-17",
     "Statement": [
         {
